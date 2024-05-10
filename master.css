@@ -16,6 +16,10 @@
 
 }
 
+.box:hover {
+    box-shadow: 0px 0px 10px 4px #CE93D8;
+}
+
 span {
     font-size: 35px;
     font-weight: bold;
@@ -90,7 +94,8 @@ button:hover {
 #Month,
 #Day {
     width: 150px;
-    box-shadow: 0 4px 8px 0 rgba(67, 10, 66, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
     border-radius: 10px;
     padding: 5px;
     font-size: larger;
@@ -104,7 +109,9 @@ button:hover {
 #Month:hover,
 #Day:hover {
     transform: rotate(10deg);
+    box-shadow: 0px 0px 10px 4px #CE93D8;
 }
+
 
 #currentAge {
 
